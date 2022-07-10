@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;}
+
+html {background: blueviolet;}
+
+
+input[type="submit"]:hover { transform: scale(1.06); transition: 0.32s;}
+
+
+.promo{
+  width: 500px;
+  height: 590px;
+  background: white;
+  margin-left: 117px;
+  margin-top: 102px;
+  border-radius: 29px;
+}
+
+
+
+h2{
+  font-family: Rileno-Sans-ExtraBold, sans-serif;
+  font-size: 21.33px;
+  margin-left: 80px;
+  text-align: center;
+  width: 341px;
+  transform: translate(0px, 79px);
+}
+
+input[type="text3"]{
+  width: 420px;
+  height: 70px;
+}
+
+.stroke{
+  width: 420px;
+  height: 70px;
+  margin-top: 113px;
+  margin-left: 40px;
+
+}
+
+input[type=text3]{
+  width: 420px;
+  height: 70px;
+  border-radius: 33px;
+  background: rgba(82, 82, 82, 1);
+  opacity: 0.9;
+  outline: none;
+  border: none;
+  padding: 34px;
+  font-size: 16px;
+  font-family: Rileno-Sans-SemiBold, sans-serif;}
+
+input[type=text4]{
+  width: 420px;
+  height: 70px;
+  border-radius: 33px;
+  background: rgba(82, 82, 82, 1);
+  opacity: 0.9;
+  outline: none;
+  border: none;
+  padding: 34px;
+  font-size: 16px;
+  font-family: Rileno-Sans-SemiBold, sans-serif;
+  margin-top: 24px;
+  }
+
+input[type=text3]::-webkit-input-placeholder{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 52.08%, rgba(255, 255, 255, 0.48) 100%);
+  width: 80px;
+  -webkit-background-clip: text;
+  opacity: 0.9;
+
+}
+
+input[type=text4]::-webkit-input-placeholder{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 52.08%, rgba(255, 255, 255, 0.48) 100%);
+  width: 170px;
+  -webkit-background-clip: text;
+  opacity: 0.9;
+
+}
+
+input[type="submit"]{
+  font-family: Rileno-Sans-Regular, sans-serif;
+  font-size: 21.33px;
+  width: 352px;
+  height: 112px;
+  outline: none;
+  border: none;
+  border-radius: 28px;
+  background: rgba(255, 199, 0, 0.9);
+  transition: 0.72s;
+  border: 2px solid rgba(228, 199, 0, 0.9);
+  margin-left: 74px;
+  margin-top: 154px;
+  opacity: 0.9;
+
+}
+
+
+.pod{
+  width: 352px;
+  height: 120px;
+  background: black;
+}
+
+
+
+
+
+
+
+
+
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
